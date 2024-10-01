@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    background-color: rgb(44, 44, 44);
+}
+
+/* Nav header styles */
+.main_nav_content {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    border-bottom: 1px solid aliceblue;
+}
+
+/*
+Class for navigation links, commented out to learn several ways to add styles
+
+.nav_links {
+    list-style-type: none;
+    float: left;
+}
+
+The css below adds the same style by defining child elements of class main_nav_link
+*/
+
+.main_nav_content ul {
+    display: inline-flex;
+}
+
+.main_nav_content ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.main_nav_content a {
+    font-family: sans-serif;
+    display: block;
+    padding: 15px;
+    margin: 0 10px 0 0;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: large;
+}
+
+.main_nav_content a:hover:not(.active) {
+    background-color: rgba(223, 223, 223, 0.301);
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+#active {
+    text-decoration: underline;
+    background-color: rgba(223, 223, 223, 0.301);
+    border-radius: 10px;
+}
+
+#main_nav_content_opening {
+    border: 1px solid black;
+    position: absolute;
+    display: inline-flex;
+    color: aliceblue;
+    top: 5px;
+    left: 50px;
+}
+
+#main_nav_content_opening p {
+    text-align: center;
+    padding: 0 5px;
+}
+
+/*End of nav styling */
+
+
+/* Index styling */
+#main_body_content {
+    position: fixed;
+    flex: 1;
+    overflow: hidden;
+    font-family: serif;
+    width: 50%;
+    top: 100px;
+    color: aliceblue;
+}
+
+#main_body_content * {
+    padding: 0 15px;
+    width: 55rem;
+}
+
+#main_body_content h2 {
+    padding: 5px 15px;
+}
+
+.main_body_menu {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    width: 50%;
+    overflow: scroll;
+    font-family: serif;
+    color: antiquewhite;
+    border-left: 1px solid aliceblue;
+}
+
+.main_body_menu ul {
+    margin: 5px 0 0 0;
+    padding: 10px 0 0 15px;
+}
+
+.main_body_menu ul li {
+    display: inline-flexbox;
+    list-style-type: none;
+    border-bottom:1px solid aliceblue;
+    margin: 0px 0px 15px;
+    padding: 0px 0px 10px;
+
+}
+
+.main_body_menu img {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+.main_body_menu img:hover {
+    height: 250px;
+    width: 250px;
+}
+
+.main_body_menu ul li p {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.main_body_menu ul li p span {
+    font-size: 2em;
+}
+
+/* End of index styling */
+
+/*Start about us styling */
+
+article {
+    position: fixed;
+    flex: 1;
+    overflow: hidden;
+    font-family: serif;
+    top: 100px;
+    color: aliceblue;
+    margin: 0 0 0 15px;
+    width: 100ch;
+}
+
+article span {
+    font-size: 2em;
+}
+
+#about_gallery {
+    display: inline-block;
+    position: absolute;
+    left: 60%;
+    top: 120px;
+}
+
+#about_gallery img {
+    display: inline-block;
+    max-width: 500px;
+    max-height: 600px;
+}
+
+
+/* End of about us styling */
+
+/* Start of contact styling */
+
+#contact_form_body {
+    display: inline-block;
+    position: absolute;
+    top: 120px;
+    margin: 0 0 0 15px;
+    width: 25%;
+    color:aliceblue;
+    font-family: serif;
+}
+
+#contact_form_body form input {
+    margin: 0 0 10px 0;
+}
+
+#contact_form_body form input[type~="submit"] {
+    margin: 10px 0 0 0;
+    font-size: 1.2em;
+}
+
+#contact_form_body form textarea {
+    height: 10ch;
+    width: 30ch;
+    margin: 5px 0 0 0;
+}
+
+/* End of contact styling */
+
+/* Footer styling */
+
+footer {
+    display: flex;
+    background-color: black;
+    position:fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+footer p {
+    color: aliceblue;
+    margin: auto;
+    text-align: center;
+}
+
+footer p span {
+    margin-left: 10px;
+}
+
+footer p span a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* End of footer styling */
