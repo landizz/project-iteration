@@ -1,13 +1,5 @@
 <?php include_once "header.php";?>
 
-
-<div name="main_body_content" id="main_body_content">
-
-
-</div>
-
-<?php include_once "footer.php";?>
-
 <body>
     <div class="main_nav_content">
 
@@ -64,3 +56,5 @@
 
 
     </div>
+
+    <?php include_once "footer.php";?>

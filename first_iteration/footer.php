@@ -1,4 +1,4 @@
-<footer name="main_footer">
+<footer>
     <p>
         Copyright 2024 Created and maintained by Jonas Landhage
         <span>

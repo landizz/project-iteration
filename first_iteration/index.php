@@ -25,7 +25,7 @@
         </nav>
     </div>
 
-<div name="main_body_content" id="main_body_content">
+<div id="main_body_content">
 
     <h2>Welcome to [Pizzeria Name]</h2>
 

@@ -1,13 +1,5 @@
 <?php include_once "header.php";?>
 
-
-<div name="main_body_content" id="main_body_content">
-
-
-</div>
-
-<?php include_once "footer.php";?>
-
 <body>
     <div class="main_nav_content">
 
@@ -49,3 +41,5 @@
         <img src="pizzaplace.jpg" alt="pizza shop">
         <img src="pizzeria-bados.jpg" alt="italy">
     </div>
+
+    <?php include_once "footer.php";?>
